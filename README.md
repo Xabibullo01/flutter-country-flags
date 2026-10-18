@@ -1,16 +1,28 @@
-# abduqodir
+# Davlat Bayroqlari (Country Flags)
 
-A new Flutter project.
+Dunyo davlatlari va ularning bayroqlarini ko'rsatadigan Flutter ilovasi.
 
-## Getting Started
+## Imkoniyatlar
 
-This project is a starting point for a Flutter application.
+- 250 ta davlat ro'yxati, alifbo tartibida
+- Har bir davlat bayrog'i
+- Nomi bo'yicha qidiruv
+- Davlat ustiga bosilganda: rasmiy nomi, ISO kodi, aholisi qanday atalishi
+- Yuklanish va xatolik holatlari ("Qayta urinish" tugmasi bilan)
 
-A few resources to get you started if this is your first Flutter project:
+## Ma'lumot manbalari
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Davlatlar: [mledoze/countries](https://github.com/mledoze/countries)
+- Bayroqlar: [flagcdn.com](https://flagcdn.com)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Texnologiyalar
+
+- Flutter / Dart
+- [http](https://pub.dev/packages/http) — API so'rovlari
+
+## Ishga tushirish
+
+```bash
+flutter pub get
+flutter run
+```
